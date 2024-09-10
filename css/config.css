@@ -1,0 +1,246 @@
+img
+{
+    max-width: 100%;
+    height: auto;
+
+    vertical-align: middle;
+}
+
+.video
+{
+    position: relative;
+
+    overflow: hidden;
+
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video iframe,
+.video object,
+.video embed
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+@font-face
+{
+    font-family: 'icons';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/icons.woff') format('woff'), url('../fonts/icons.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 200;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-ExtraLight.woff') format('woff'), url('../fonts/TTInterfaces-ExtraLight.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 300;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Light.woff') format('woff'), url('../fonts/TTInterfaces-Light.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 400;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Regular.woff') format('woff'), url('../fonts/TTInterfaces-Regular.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'TTInterfaces';
+    font-weight: 100;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/TTInterfaces-Thin.woff') format('woff'), url('../fonts/TTInterfaces-Thin.woff2') format('woff2');
+}
+
+@font-face
+{
+    font-family: 'icons';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('fonts/icons.eot?aa9m0j');
+    src: url('fonts/icons.eot?aa9m0j#iefix') format('embedded-opentype'), url('fonts/icons.ttf?aa9m0j') format('truetype'), url('fonts/icons.woff?aa9m0j') format('woff'), url('fonts/icons.svg?aa9m0j#icons') format('svg');
+    font-display: block;
+}
+
+i
+{
+    font-family: 'icons' !important;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    text-transform: none;
+
+    speak: never;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+i::before
+{
+    display: inline-block;
+}
+
+.icon-success:before
+{
+    content: '\e90c';
+}
+
+.icon-account:before
+{
+    content: '\e905';
+}
+
+.icon-like:before
+{
+    content: '\e906';
+}
+
+.icon-share:before
+{
+    content: '\e90b';
+}
+
+.icon-zoom:before
+{
+    content: '\e90d';
+}
+
+.icon-youtube:before
+{
+    content: '\e90a';
+}
+
+.icon-arrow-right-2:before
+{
+    content: '\e900';
+}
+
+.icon-cart:before
+{
+    content: '\e901';
+}
+
+.icon-search:before
+{
+    content: '\e902';
+}
+
+.icon-close:before
+{
+    content: '\e903';
+}
+
+.icon-inst:before
+{
+    content: '\e907';
+}
+
+.icon-arrow-right:before
+{
+    content: '\e904';
+}
+
+.icon-arrow-left:before
+{
+    content: '\e904';
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.icon-arrow-up:before
+{
+    content: '\e904';
+    -webkit-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+            transform: rotate(270deg);
+}
+
+.icon-arrow-down:before
+{
+    content: '\e904';
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+
+*
+{
+    font-weight: 400;
+    line-height: 100%;
+
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    border-spacing: unset;
+    border-collapse: separate;
+    list-style-type: none;
+
+    -webkit-transition: .2s;
+         -o-transition: .2s;
+            transition: .2s;
+    text-decoration: none;
+
+    border: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    scroll-behavior: smooth;
+}
+
+a,
+input,
+button,
+textarea
+{
+    display: inline-block;
+
+    outline: none;
+}
+
+button
+{
+    cursor: pointer;
+
+    background: none;
+}
+@supports (-webkit-appearance:none)
+{
+}

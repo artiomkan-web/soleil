@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Reset -->
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
+
+  <!-- Font Awesome -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans&family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap-grid.min.css"> -->
+
+  <!-- Libs -->
+  <!-- <link rel="stylesheet" href="css/libs/slider.css"> -->
+
+  <!-- User -->
+  <link rel="stylesheet" href="css/config.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/card.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__burger burger">
+        <div></div>
+      </div>
+      <nav class="header__menu menu">
+        <button class="menu__close">
+          <i class="icon-close"></i>
+        </button>
+        <a href="index.html" class="menu__logo">
+          <img src="img/logo/logo.png" alt="">
+        </a>
+        <div class="menu__icons"></div>
+        <ul class="menu__list _main">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Все</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Брюки</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Анораки</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Свитшоты</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Топы</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Свитшоты</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Худи</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">О нас</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+        <a class="menu__icon">
+          <i class="icon-inst"></i>
+        </a>
+      </nav>
+      <a href="index.html" class="header__logo logo">
+        <img src="img/logo/logo.png" alt="" class="logo__pic">
+      </a>
+      <div class="header__icons icons">
+        <button class="icons__item _account">
+          <i class="icon-account"></i>
+        </button>
+        <button class="icons__item _search">
+          <i class="icon-search"></i>
+        </button>
+        <button class="icons__item _cart">
+          <i class="icon-cart"></i>
+        </button>
+        <button class="icons__item _like">
+          <i class="icon-like"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="card">
+    <div class="card__container">
+      <h2 class="card__title title">
+        Каталог
+        <span class="title__subtitle">Худи</span>
+      </h2>
+      <div class="card__slider slider ">
+        <h4 class="card__discount">-35%</h4>
+        <button class="card__zoom">
+          <i class="icon-zoom"></i>
+        </button>
+        <div class="slider__wrapper card__wrapper">
+          <div class="slider__row card__row slick">
+            <div class="slider__item card__pic">
+              <img src="img/attachements/product.svg" alt="">
+            </div>
+            <div class="slider__item card__pic">
+              <img src="img/attachements/product.svg" alt="">
+            </div>
+            <div class="slider__item card__pic">
+              <img src="img/attachements/product.svg" alt="">
+            </div>
+            <div class="slider__item card__pic">
+              <img src="img/attachements/product.svg" alt="">
+            </div>
+            <div class="slider__item card__pic">
+              <img src="img/attachements/product.svg" alt="">
+            </div>
+            <div class="slider__item card__pic">
+              <img src="img/attachements/product.svg" alt="">
+            </div>
+          </div>
+          <span class="added__quantity card__quantity">х2</span>
+        </div>
+        <div class="card__added added">
+          <h3 class="added__title">Товары добавлены <button class="card__close">
+              <i class="icon-close"></i>
+            </button>
+          </h3>
+          <div class="added__pic">
+            <img src="img/attachements/product.svg" alt="">
+            <span class="added__quantity card__quantity">x2</span>
+          </div>
+          <h3 class="added__name">Женское розовое худи SW с длинным рукавом</h3>
+          <h4 class="added__size">Размер: <span>44</span>
+          </h4>
+          <a href="cart.html" class="added__cart btn _light">Перейти в корзину ( <span>2</span> )</a>
+          <button class="added__order btn _dark">Оформить заказ</button>
+          <a href="#" class="added__continue">Продолжить покупки</a>
+        </div>
+      </div>
+      <div class="card__params">
+        <div class="card__colors colors radio">
+          <button id="color_1" class="colors__item radio__item _black"></button>
+          <button id="color_2" class="colors__item radio__item _gray"></button>
+          <button id="color_3" class="colors__item radio__item _orange _active"></button>
+          <button id="color_4" class="colors__item radio__item _white"></button>
+        </div>
+        <h3 class="card__subtitle">Мужской свитшот 3D «James Harden», красный</h3>
+        <span class="card__price price">
+          <span class="price__old">13,999 руб.</span>
+          9,999 руб.
+        </span>
+        <div class="card__size size tabs radio">
+          <h5 class="size__title">
+            Размер
+          </h5>
+          <div class="size__list radio">
+            <button class="size__item radio__item">44</button>
+            <button class="size__item radio__item _active">44</button>
+            <button class="size__item radio__item">44</button>
+            <button class="size__item radio__item">44</button>
+            <button class="size__item radio__item">44</button>
+          </div>
+        </div>
+        <div class="card__details">
+          <div class="card__count count">
+            <h5 class="count__title">Размерная таблица</h5>
+            <div class="count__field">
+              <button class="count__calc _minus"> - </button>
+              <input type="number" class="count__value" name="" id="" value="1">
+              <button class="count__calc _plus"> + </button>
+            </div>
+          </div>
+          <button class="card__send btn _dark">В корзину</button>
+        </div>
+        <div class="card__buttons">
+          <a href="#" class="card__like">
+            <i class="icon-like"></i>
+          </a>
+          <a href="#" class="card__share">
+            <i class="icon-share"></i>Поделиться
+          </a>
+        </div>
+        <p class="card__desc">
+          Худи розового цвета "Soleil Wear". Свободный крой, объемные рукава, спущенная линия плеч.
+        </p>
+        <div class="card__info">
+          <div class="card__dropdown dropdown">
+            <p class="dropdown__title">
+              <span>Обмеры изделия</span>
+              <i class="icon-arrow-down"></i>
+            </p>
+            <div class="dropdown__wrapper">
+              <div class="dropdown__content">
+                <span class="card__type">Состав</span>
+                <span class="card__text">77% шерсть мериноса экстрафайн, 22% полиамид, 1% эластан.</span>
+
+                <span class="card__type">Страна производства</span>
+                <span class="card__text">Россия</span>
+              </div>
+            </div>
+          </div>
+          <div class="card__dropdown dropdown">
+            <p class="dropdown__title">
+              <span>Состав и уход</span>
+              <i class="icon-arrow-down"></i>
+            </p>
+            <div class="dropdown__wrapper">
+              <div class="dropdown__content">
+                <span class="card__type">Стирка</span>
+                <span class="card__text">Ручная стирка при температуре воды до 30°C</span>
+
+                <span class="card__type">Отбеливание</span>
+                <span class="card__text">Не отбеливать</span>
+
+                <span class="card__type">Сушка</span>
+                <span class="card__text">Сушить при низкой температуре</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card__photos">
+          <h3 class="card__subtitle _big">Весь образ на фото</h3>
+          <div class="card__list list">
+            <div class="list__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+            <div class="list__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+          </div>
+        </div> -->
+      <div class="card__carousel carousel slider">
+        <h3 class="card__subtitle _big" id="similar_products">Весь образ на фото</h3>
+        <div class="slider__wrapper">
+          <div class="slider__row slick">
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card__carousel carousel slider">
+        <h3 class="card__subtitle _big" id="similar_products">Вам может понравиться</h3>
+        <div class="slider__wrapper">
+          <div class="slider__row slick">
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+            <div class="slider__item carousel__item product">
+              <img class="product__pic" src="img/attachements/product.svg" alt="">
+              <h5 class="product__name">Женское худи Soleil Wear</h5>
+              <h6 class="product__price">9.999 руб..</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="support">
+    <div class="support__container">
+      <h1 class="support__title">Поддержка</h1>
+      <p class="support__links">
+        <a href="">Обратная связь</a>
+        <br>
+        <a href="">Возврат</a>
+        <br>
+        <a href="">FAQ</a>
+      </p>
+      <form action="" class="support__form">
+        <h3 class="support__subtitle">Подписка на рассылку</h3>
+        <div class="support__field inputsingle">
+          <input class="inputsingle__input" required type="text" placeholder="E-mail">
+          <i class="icon-arrow-right-2 inputsingle__icon"></i>
+        </div>
+        <div class="support__checkbox checkbox">
+          <input type="checkbox" name="chk_1" id="chk_1">
+          <label for="chk_1">
+            <h5>Нажимая на кнопку, Вы соглашаетесь с условиями обработки персональных данных.</h5>
+          </label>
+        </div>
+      </form>
+      <div class="support__icons icons">
+        <a href="" class="support__icon icons__item">
+          <i class="icon-inst"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__list">
+        <h4 class="footer__title">
+          <a href="#" class="footer__link">Политика конфиденциальности </a>
+        </h4>
+        <h4 class="footer__title">
+          <a href="#" class="footer__link">Политика в отношении файлов Cookies</a>
+        </h4>
+        <h4 class="footer__title">
+          <a href="#" class="footer__link">Настройка Cookies</a>
+        </h4>
+      </div>
+      <h6 class="footer__copyright">Интернет-магазин одежды “SoleilWear”, 2022 г.</h6>
+    </div>
+  </footer>
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script> -->
+
+  <!-- Libs -->
+  <script src="js/libs/maskedinput.js"></script>
+  <!-- <script src="js/libs/datepicker.js"></script> -->
+  <script type="text/javascript" src="js/libs/slick.js"></script>
+
+  <!-- User -->
+  <script src="js/config.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/card.js"></script>
+</body>
+
+</html>
